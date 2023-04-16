@@ -1,0 +1,87 @@
+.topInsti{
+    /* margin-left: 7px; */
+    padding: 15px;
+    flex-direction: row;
+    display: flex;
+    background-color: #0b022d;
+}
+
+.upload{
+    margin-left: 20px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    flex-direction: row;
+    display: flex;
+    cursor: pointer;
+}
+
+.search{
+    resize: none;
+    height: 25px;
+    overflow :hidden;  
+}
+
+
+
+.itemImage{
+    margin: 17px;
+    height: 160px;
+      width: 150px; 
+}
+.textDescription{
+    text-overflow:ellipsis;
+    overflow:hidden;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 390px;
+  }
+  .productName{
+    font-size: 16px;
+    text-align: left;
+    margin: 10px;
+  }
+
+  .productDetail{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 6px;
+    margin-left: 10px;
+  }
+  .BuyList{
+    display: grid;
+    grid-column: 2;
+    /* /* grid-template-columns: 1fr 1fr;
+     grid-template-columns: repeat(auto-fit, minmax(550px, 1fr)); */
+}
+  .itemCard{
+    margin: 10px;
+    width: 600px;
+    height: 200px;
+    background-color: rgb(222, 226, 226);
+    display: flex;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 5px;
+
+  }
+
+
+
+  .StockName{
+ margin-left: 15px;
+ font-weight: 700;
+  }
+
+  .Chart{
+    width: 60%;
+  }
+  .MainPart{
+    display: flex;
+    flex-direction: row;
+    
+  }
