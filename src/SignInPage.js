@@ -26,21 +26,21 @@ const SignInPage = () => {
         console.log("Successfulley stored to local storage");
     })
   return (
-    <div>
-      <Home/>
-    </div>
-    // <div className="bgColor">
-    //   <div>
-    //     <img src = "https://i.ibb.co/hWNNjG7/rovi-logo.png"  width={'250px'}/>
-    //   </div>
-    //         {
-    //         value ?  window.location.href=`/home` :
-    //         <div className="bgColor">
+    // <div>
+    //   <Home/>
+    // </div>
+    <div className="bgColor">
+      <div>
+        <img src = "https://i.ibb.co/hWNNjG7/rovi-logo.png"  width={'250px'}/>
+      </div>
+            {
+            value ?  window.location.href=`/home` :
+            <div className="bgColor">
 
-    //           <button onClick={handleClick} style={{marginLeft:'45vw',marginTop:'205px',padding:'3px'}}>Login With Google</button>
-    //          </div>
-    //         }
-    //           </div>
+              <button onClick={handleClick} style={{marginLeft:'45vw',marginTop:'205px',padding:'3px'}}>Login With Google</button>
+             </div>
+            }
+              </div>
   )
 }
 
