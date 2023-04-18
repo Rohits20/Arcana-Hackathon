@@ -3,6 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Deployed link - https://legendary-gelato-7c03a7.netlify.app/  .\
+
+OR 
 
 In the project directory, you can run:
 
